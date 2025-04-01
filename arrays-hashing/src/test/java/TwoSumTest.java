@@ -14,6 +14,6 @@ class TwoSumTest {
 
         int[] actual = victim.twoSum(nums, target);
 
-        assertEquals(expected, actual);
+        assertArrayEquals(expected, actual);
     }
 }
