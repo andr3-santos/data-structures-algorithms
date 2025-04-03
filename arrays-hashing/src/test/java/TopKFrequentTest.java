@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class TopKFrequentTest {
@@ -12,6 +14,9 @@ class TopKFrequentTest {
         int[] expected = {2, 3};
 
         int[] actual = victim.topKFrequent(input, target);
+        Arrays.sort(expected);
+        Arrays.sort(actual);
+
         assertArrayEquals(expected, actual);
     }
 }
