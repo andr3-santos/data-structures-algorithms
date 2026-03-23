@@ -1,5 +1,3 @@
-package core;
-
 public class PrefixSum {
 
     public int[] calculatePrefixSum(int[] entry) {

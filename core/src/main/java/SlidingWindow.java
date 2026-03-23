@@ -1,5 +1,3 @@
-package core;
-
 public class SlidingWindow {
 
     public int naiveSlidingWindow(int[] input, int k) {

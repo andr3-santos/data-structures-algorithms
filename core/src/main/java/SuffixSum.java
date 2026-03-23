@@ -1,5 +1,3 @@
-package core;
-
 public class SuffixSum {
 
     public int[] suffixSum(int[] input) {

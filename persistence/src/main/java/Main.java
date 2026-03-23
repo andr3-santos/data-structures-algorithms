@@ -3,7 +3,7 @@ import java.nio.file.Path;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Path dbDir = Path.of("./mydb");
+        Path dbDir = Path.of("mydb");
 
 //        // --- RUN 1: write some data ---
 //        System.out.println("=== First run: writing data ===");
